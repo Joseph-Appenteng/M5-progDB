@@ -1,0 +1,13 @@
+GRANT: Het GRANT-recht stelt een gebruiker in staat om andere gebruikers specifieke rechten te verlenen op een bepaalde database of objecten in de database.
+Je hebt dit recht nodig wanneer je beheerdersrechten wilt delegeren aan andere gebruikers, zoals het toestaan van SELECT-toegang tot specifieke tabellen.
+Een hacker kan dit recht misbruiken om ongeautoriseerde toegang te verlenen aan andere gebruikers, waardoor ze mogelijk gevoelige gegevens kunnen benaderen of schadelijke wijzigingen kunnen aanbrengen.
+
+
+CONNECT: Het CONNECT-recht staat een gebruiker toe om verbinding te maken met een database.
+Dit recht is nodig elke keer dat een gebruiker probeert in te loggen op een database. Zonder CONNECT-rechten kan een gebruiker geen toegang krijgen tot de database.
+Als een hacker toegang krijgt tot dit recht, kan hij proberen in te loggen op de database met gestolen inloggegevens of door gebruik te maken van zwakke wachtwoorden om toegang te krijgen tot de gegevens.
+
+
+CREATE: Het CREATE-recht stelt een gebruiker in staat om nieuwe database-objecten, zoals tabellen, indexen en weergaven, te maken.
+
+Doel: Het ALTER-recht staat een gebruiker toe om bestaande database-objecten te wijzigen, bijvoorbeeld om kolommen toe te voegen of te verwijderen van een bestaande tabel.
