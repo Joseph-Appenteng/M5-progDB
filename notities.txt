@@ -1,0 +1,7 @@
+Heineken Brouwerijen B.V.
+Adres: Tweede Weteringplantsoen 21, 1017 ZD Amsterdam
+
+Dit adres betaat uit VARCHAR, INT en TEXT
+
+
+Door de eerste kolom "adresID" te noemen en deze eigenschappen toe te voegen, definieer je een primaire sleutel voor de tabel met unieke, niet-negatieve, en verplichte waarden. Dit helpt bij het behouden van gegevensintegriteit en efficiënte gegevensverwerking in een MySQL-database.
